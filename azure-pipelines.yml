@@ -35,6 +35,6 @@ steps:
     --repository RajatPugaliya1234/AZ \
     --github-url https://github.com \
     --github-auth $(GITHUB_PAT) \
-    --commit $(Build.SourceVersion) \
-    --ref $(Build.SourceBranch)
+    --commit fa1e97215dca5d4657d354af5d21b8a0a296bb6e \
+    --ref refs/heads/master
   displayName: 'Populate the CodeQL runner databases, analyze them, and upload the results to GitHub.'
